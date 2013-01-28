@@ -11,15 +11,15 @@ var UNKNOWN = "That's no excuse!";
 var FORGOTTEN = "You're right, that's a terrible excuse.";
 
 var client = dazeus.connect({path: '/tmp/dazeus.sock'}, function () {
-    client.onCommand('excuse', function (network, user, channel, command, args, what) {
+    client.onCommand('excuse', function (network, user, channel, command, args, what, rest) {
         if (typeof what !== 'undefined') {
-            if (what === 'learn') {
+            if (what === 'learn' && typeof rest !== 'undefined') {
                 if (append(args.trim().substr(5).trim(), DATA)) {
                     client.reply(network, channel, user, NEWEXCUSE);
                 } else {
                     client.reply(network, channel, user, KNOWN);
                 }
-            } else if (what === 'forget') {
+            } else if (what === 'forget' && typeof rest !== 'undefined') {
                 if (remove(args.trim().substr(6).trim(), DATA)) {
                     client.reply(network, channel, user, FORGOTTEN);
                 } else {
