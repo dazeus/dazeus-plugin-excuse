@@ -1,2 +1,2 @@
 # DaZeus excuse generator
-Retrieves an excuse from http://pages.cs.wisc.edu/~ballard/bofh/bofhserver.pl, and provides the `}excuse` command.
+Displays a random excuse. Excuses are from http://pages.cs.wisc.edu/~ballard/bofh/bofhserver.pl. Provides the `}excuse` command.
