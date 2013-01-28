@@ -1,0 +1,26 @@
+{
+  "name": "dazeus-excuse",
+  "version": "0.1.0",
+  "description": "Generate an excuse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rnijveld/dazeus-excuse.git"
+  },
+  "keywords": [
+    "dazeus",
+    "irc",
+    "excuse",
+    "bofh"
+  ],
+  "author": "Ruben Nijveld <ruben@gewooniets.nl>",
+  "license": "BSD",
+  "dependencies": {
+    "dazeus": "",
+    "request": "",
+    "js-methods": ""
+  }
+}
