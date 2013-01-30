@@ -1,6 +1,6 @@
 {
-  "name": "dazeus-excuse",
-  "version": "0.2.1",
+  "name": "dazeus-plugin-excuse",
+  "version": "0.3.0",
   "description": "Generate an excuse",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rnijveld/dazeus-excuse.git"
+    "url": "git@github.com:dazeus/dazeus-plugin-excuse.git"
   },
   "keywords": [
     "dazeus",
@@ -19,8 +19,7 @@
   "author": "Ruben Nijveld <ruben@gewooniets.nl>",
   "license": "BSD",
   "dependencies": {
-    "dazeus": "",
-    "request": "",
+    "dazeus": ">=0.3.2",
     "js-methods": ""
   }
 }

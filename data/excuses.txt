@@ -463,3 +463,6 @@ It is a layer 8 problem
 The math co-processor had an overflow error that leaked out and shorted the RAM
 Leap second overloaded RHEL6 servers
 DNS server drank too much and had a hiccup
+The dog ate my bytes
+My brain is still compiling
+I'm being pulled by a black hole
